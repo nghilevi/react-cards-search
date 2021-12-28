@@ -1,119 +1,61 @@
 const Projects = [
   {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
-    },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Patricia Lebsack",
-    "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-      "street": "Hoeger Mall",
-      "suite": "Apt. 692",
-      "city": "South Elvis",
-      "zipcode": "53919-4257",
-      "geo": {
-        "lat": "29.4572",
-        "lng": "-164.2990"
-      }
-    },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
-    "company": {
-      "name": "Robel-Corkery",
-      "catchPhrase": "Multi-tiered zero tolerance productivity",
-      "bs": "transition cutting-edge web services"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Chelsey Dietrich",
-    "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
-      "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
-      }
-    },
-    "phone": "(254)954-1289",
-    "website": "demarco.info",
-    "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
-    }
-  },
+	  "_id": "abc",
+	  "name": "Nordea",
+	  "cat": "Web",
+	  "technologies": "Angular, TypeScript, AngularJs, HTML5, CSS3, Sass, JavaScript",
+	  "links": [
+		[
+		  "demo",
+		  "https://www.linkedin.com/in/levinhnghi/detail/treasury/position:1163054375/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAOr0HIB246DwpPfk3Z1SHYDr1oy2L1gKTY%2C1635460576445)&section=position%3A1163054375&treasuryCount=9"
+		],
+		[
+			"demo",
+			"https://netbank.nordea.fi/#!/"
+		],
+		[
+			"youtube",
+			"https://youtu.be/6m8idTzO560"
+		]
+	  ],
+	  "description": "Relationship Banking Online - new private netbank project for household customers",
+	  "rankId": 0,
+	  "rating": 3
+	},
+	{
+		"name": "Ventoura",
+		"cat": "Mobile App",
+		"technologies": "Java, Android, Eclipse, Android Studio",
+		"links": [
+			[
+				"review",
+				"https://fi.pinterest.com/lvn223/review-ventoura/"
+			],
+			[
+				"instagram",
+				"https://www.instagram.com/ventoura/"
+			],
+			[
+				"playstore",
+				"https://play.google.com/store/apps/details?id=com.Mindelo.Ventoura.UI.Activity"
+			],
+			[
+				"demo",
+				"https://ventoura.com/"
+			],
+			[
+				"youtube",
+				"https://www.youtube.com/watch?v=c9F5hseOb1I"
+			],
+			[
+				"youtube",
+				"https://www.youtube.com/watch?v=_p0hELqGjdg"
+			]
+		],
+		"description": "Offer the local experience for the travellers. Launching soon!",
+		"rankId": 1,
+		"rating": 3
+	},
 ]
 
 export { Projects}
