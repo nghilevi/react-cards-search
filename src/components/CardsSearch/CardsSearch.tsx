@@ -16,6 +16,8 @@ function CardsSearch({ cards}: CardsSearchProps) {
         setFilterStr(e.target.value)
     }
 
+    const stringFound = (str: string, searchStr: string) => lowerString(str).indexOf(lowerString(searchStr)) > -1
+
     const renderCardsSearch = () => {
         const cardStyle = {
             border: '1px solid blue',
@@ -34,23 +36,29 @@ function CardsSearch({ cards}: CardsSearchProps) {
                     {
 
                         cards
-                            .filter((item) => lowerString(item.name).indexOf(lowerString(filterStr)) > -1)
-                            .map((item, key: number) =>
+                            .filter(
+                                (card: Card) => {
+                                    const nameFound = stringFound(card.name, filterStr)
+                                    const catFound = stringFound(card.technologies, filterStr)
+                                    return nameFound || catFound
+                                }
+                            )
+                            .map((card: Card, key: number) =>
                                 //Card
                                 <div data-testid={key} key={key} style={cardStyle}>
                                     <div className="card-front">
-                                        {item.name as string}
+                                        {card.name as string}
                                     </div>
                                     <div className="card-back">
-                                        {item.name as string} ({item.cat}) <br/>
-                                        {item.technologies} <br/>
-                                        {item.description} <br/>
+                                        {card.name as string} ({card.cat}) <br/>
+                                        {card.technologies} <br/>
+                                        {card.description} <br/>
                                         {
-                                            (item.links as any[])
+                                            (card.links as {type: string, url: string}[])
                                                 .map(
-                                                    (link: string[]) => {
-                                                        const title = link[0]
-                                                        const href = link[1]
+                                                    (link: {type: string, url: string}) => {
+                                                        const title = link.type
+                                                        const href = link.url
                                                         return (
                                                             <a target='_blank' title={title} href={href}>
                                                                 <img className='links' src={'dist/img/links/'+title+'.jpg'} />

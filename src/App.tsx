@@ -6,7 +6,7 @@ import CardsSearch from './components/CardsSearch/CardsSearch';
 
 function App() {
 
-  const { cards, loadingStatus } = useData()
+  const { cards, autocompleteStrArr, loadingStatus } = useData()
 
   const renderApp = () => {
     if(loadingStatus === Status.Loading){
@@ -30,3 +30,4 @@ function App() {
 }
 
 export default App;
+

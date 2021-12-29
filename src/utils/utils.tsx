@@ -10,7 +10,7 @@ const filterList = (itemsList: any[], filteredKey: string, filteredValue: string
     return returnList
 }
 
-const lowerString = (str: any) => str.toString().toLowerCase()
+const lowerString = (str: string) => str.toString().toLowerCase()
 
 const parseJSON = (data: any) => data.json()
 
