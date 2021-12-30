@@ -1,6 +1,6 @@
 # Cards Search (WIP)
 card search application
-
+the final UI will look like this: https://vinhnghi223.github.io/#/my-work
 ## Usage notes
 
 
