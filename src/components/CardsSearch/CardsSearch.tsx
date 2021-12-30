@@ -25,8 +25,9 @@ function CardsSearch({ cards}: CardsSearchProps) {
             return <>{CardsSearchText.Empty}</>
         } else {
             return <>
-                <input data-testid='input' type="text" onInput={(e) => onInput(e)} />
-                
+                <div className="search">
+                    <input data-testid='input' type="text" onInput={(e) => onInput(e)} />
+                </div>
                 <div className="cards">
                     {
 

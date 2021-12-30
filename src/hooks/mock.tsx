@@ -11,6 +11,10 @@ const Projects = [
             },
             {
                 "type": "demo",
+                "url": "https://1drv.ms/u/s!Aof-bLtD6TvYgsFA1EUqIqj0b1Tp5g?e=b25rUD"
+            },
+            {
+                "type": "demo",
                 "url": "https://netbank.nordea.fi/#!/"
             },
             {
@@ -69,7 +73,7 @@ const Projects = [
             },
             {
                 "type": "demo",
-                "url": "https://imgur.com/a/OOQap#0"
+                "url": "https://1drv.ms/u/s!Aof-bLtD6TvYgsFw4eAMB5YsdDxM0w?e=u6liIG"
             }
         ],
         "description": "A great lightweight app that allows students to quickly locate rooms in just less than 0.1 second.",
@@ -80,19 +84,19 @@ const Projects = [
         "_id": "",
         "name": "Createtrips.com",
         "cat": "Web App",
-        "technologies": "AngularJs, JavaScript, Jasmine, Karma, Grunt, Protractor, Unit testing, E2E testing",
+        "technologies": "Wordpress, HTML, CSS",
         "links": [
             {
-                "type": "demo",
-                "url": "https://vinhnghi223.github.io/near-by-location-app/dist/index.html#/"
-            },
-            {
                 "type": "github",
-                "url": "https://github.com/vinhnghi223/Near-By-Location-Android-App"
+                "url": "https://github.com/vinhnghi223/createtrips.com-ui"
             },
             {
                 "type": "demo",
-                "url": "https://imgur.com/a/tETe9"
+                "url": "https://1drv.ms/u/s!Aof-bLtD6TvYgsF0-2hOsayTmBSbQQ?e=0VXVXD"
+            },
+            {
+                "type": "demo",
+                "url": "https://vinhnghi223.github.io/createtrips.com-ui/"
             }
         ],
         "description": "NearByLocation Web app using Foursquare API v2",
@@ -609,6 +613,10 @@ const Projects = [
         "technologies": "JavaScript, HTML5, CSS3",
         "links": [
             {
+                "type": "github",
+                "url": "https://github.com/vinhnghi223/giggle-bug"
+            },
+            {
                 "type": "demo",
                 "url": "http://www.gigglebug.tv/"
             }
@@ -703,6 +711,25 @@ const Projects = [
         ],
         "description": "",
         "rankId": 28,
+        "rating": 2
+    },
+    {
+        "_id": "55239b8bebd4f06aa95fed20",
+        "name": "LinkedByMusic.com",
+        "cat": "Web",
+        "technologies": "JavaScript, HTML5, CSS3",
+        "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/vinhnghi223/WEB-APPS-PROJECTS/tree/gh-pages/LinkedByMusic.com"
+            },
+            {
+                "type": "demo",
+                "url": "http://vinhnghi223.github.io/WEB-APPS-PROJECTS/LinkedByMusic.com/"
+            }
+        ],
+        "description": "",
+        "rankId": 26,
         "rating": 2
     },
     {
@@ -863,6 +890,10 @@ const Projects = [
         "cat": "Game",
         "technologies": "Maya",
         "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/vinhnghi223/lenni-3d-model"
+            },
             {
                 "type": "behance",
                 "url": "https://skfb.ly/AOJu"

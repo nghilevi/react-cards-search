@@ -3,6 +3,7 @@
 import { useData } from './hooks/useData';
 import { LoadingStatusText, Status } from './utils/constants';
 import CardsSearch from './components/CardsSearch/CardsSearch';
+import './App.scss'
 
 function App() {
 
